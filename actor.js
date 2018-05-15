@@ -11,14 +11,14 @@ function pHighlight() {
 	}
 	else
 		for (var x = 0;x < pFun.length; x++) {
-			pFun[x].setAttribute("style","bg-color: #ffff00");
+			pFun[x].setAttribute("style","bg-color: #ffffff");
 		}
-// function anagram() {
-// 	let cap = document.getElementsByName("Reynolds");
-// 	console.log(cap.length);
-// 	cap.forEach()
-// }
-// function highlight() {
+function anagram() {
+	let cap = document.getElementsByName("Reynolds");
+	console.log(cap.length);
+	cap.forEach()
+}
+function highlight() {
 //
 // }
 boxElem.addEventListener("mousedown", logEvent);
